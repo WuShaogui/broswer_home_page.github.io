@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <title>小五的个人主页</title>
+
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+
+    <style>
+        .table tbody tr td {
+            vertical-align: middle;
+        }
+    </style>
+</head>
+
+<body ng-app="">
+
+    <div class="input-group form-group col-md-8 col-md-offset-4" style="margin-top:5%;width: 500px !important; max-width: 100vw !important;">
+        <input ng-model="Search_input" type="text" value placeholder="输入搜索内容" class="form-control col-xs-4">
+        <a class="input-group-addon btn" ng-model="Search_botton" href="#">搜索</a>
+    </div>
+
+
+    <table border="1" class="table table-bordered table-hover">
+        <caption>常用网址</caption>
+        <thead>
+            <tr>
+                <th>分类</th>
+                <th>网址</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="text-center">开发</td>
+                <td>
+                    <a class="btn btn-default col-md-1" href="https://github.com/search?utf8=%E2%9C%93&amp;type=Repositories&amp;ref=advsearch&amp;l=&amp;l=&amp;q={{Search_input}}">Github Search</a>
+                    <a class="btn btn-default col-md-1" href="http://stackoverflow.com/search?q={{Search_input}}">Stack Overflow</a>
+                    <a class="btn btn-default col-md-1" href="https://www.oschina.net/search?scope=blog&amp;q={{Search_input}}">开源中国</a>
+                    <a class="btn btn-default col-md-1" href="https://toutiao.io/search?q={{Search_input}}">开发者头条</a>
+                    <a class="btn btn-default col-md-1" href="https://juejin.im/search?query={{Search_input}}">掘金</a>
+                    <a class="btn btn-default col-md-1" href="http://www.importnew.com/?s={{Search_input}}">ImportNew</a>
+                    <a class="btn btn-default col-md-1" href="https://yq.aliyun.com/search?type=ARTICLE&amp;q={{Search_input}}">云栖社区</a>
+                    <a class="btn btn-default col-md-1" href="http://www.jianshu.com/search?q={{Search_input}}&amp;page=1&amp;type=note">简书</a>
+                    <a class="btn btn-default col-md-1" href="http://weixin.sogou.com/weixin?type=2&amp;query={{Search_input}}&amp;ie=utf8&amp;_sug_=n&amp;_sug_type_=">微信</a>
+                    <a class="btn btn-default col-md-1" href="https://segmentfault.com/search?q={{Search_input}}">	SegmentFault	</a>
+                    <a class="btn btn-default col-md-1" href="http://blog.51cto.com/search.php?keyword={{Search_input}}&amp;sch_area=S&amp;search_in=search.php&amp;step=2&amp;word=%C1%F7%B3%CC&amp;tn=bds&amp;cl=3&amp;ct=2097152&amp;si=blog.51cto.com&amp;q=%C1%F7%B3%CC&amp;domains=blog.51cto.com&amp;sitesearch=blog.51cto.com&amp;forid=1&amp;ie=gb2312&amp;oe=utf-8&amp;hl=cn&amp;x=27&amp;y=13">51CTO</a>
+                    <a class="btn btn-default col-md-1" href="http://www.iteye.com/search?type=blog&amp;query={{Search_input}}">	ITEYE	</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="text-center">搜索引擎</td>
+                <td>
+                    <a class="btn btn-default col-md-1" href="https://www.google.com/search?q={{Search_input}}">	谷歌	</a>
+                    <a class="btn btn-default col-md-1" href="https://www.baidu.com/baidu?wd={{Search_input}}">	百度	</a>
+                    <a class="btn btn-default col-md-1" href="https://www.bing.com/search?q={{Search_input}}">	Bing	</a>
+                    <a class="btn btn-default col-md-1" href="https://www.sogou.com/web?query={{Search_input}}">	搜狗	</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="text-center">购物</td>
+                <td>
+                    <a class="btn btn-default col-md-1" href="https://s.taobao.com/search?q={{Search_input}}">	淘宝	</a>
+                    <a class="btn btn-default col-md-1" href="https://search.jd.com/Search?enc=utf-8&amp;pvid=97ericzi.w7d19z&amp;keyword={{Search_input}}">	京东	</a>
+                    <a class="btn btn-default col-md-1" href="https://www.amazon.cn/s/ref=nb_sb_noss?field-keywords={{Search_input}}">	亚马逊CN	</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="text-center">电影</td>
+                <td>
+                    <a class="btn btn-default col-md-1" href="https://www.douban.com/search?cat=1002&amp;q={{Search_input}}">	豆瓣	</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="text-center">网盘</td>
+                <td>
+                    <a class="btn btn-default col-md-1" href="http://www.sobaidupan.com/search.asp?wd={{Search_input}}">	搜百度盘	</a>
+                    <a class="btn btn-default col-md-1" href="http://www.bdsola.com/search.php?kw={{Search_input}}&amp;searchType=ALL">搜啦百度云</a>
+                    <a class="btn btn-default col-md-1" href="http://www.sopanpan.com/search/{{Search_input}}-0-0.html">搜盘盘</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="text-center">出行</td>
+                <td>
+                    <a class="btn btn-default col-md-1" href="http://map.baidu.com/m?word={{Search_input}}">百度地图</a>
+                    <a class="btn btn-default col-md-1" href="http://you.ctrip.com/SearchSite/?query={{Search_input}}">	携程	</a>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="text-center">百科</td>
+                <td>
+                    <a class="btn btn-default col-md-1" href="https://zh.wikipedia.org/wiki/{{Search_input}}">	维基百科	</a>
+                    <a class="btn btn-default col-md-1" href="http://baike.baidu.com/search?word={{Search_input}}&amp;pn=0&amp;rn=0&amp;enc=utf8">百度百科</a>
+                    <a class="btn btn-default col-md-1" href="https://www.zhihu.com/search?type=content&amp;q={{Search_input}}">	知乎	</a>
+                    <a class="btn btn-default col-md-1" href="https://www.quora.com/search?q={{Search_input}}">quora</a>
+                    <a class="btn btn-default col-md-1" href="https://jingyan.baidu.com/search?word={{Search_input}}">	百度经验	</a>
+                    <a class="btn btn-default col-md-1" href="http://zh.wikihow.com/Special:GoogSearch?cx=008953293426798287586%3Awqu8qtfdf2g&amp;cof=FORID%3A10&amp;ie=UTF-8&amp;q={{Search_input}}">	wikiHow	</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="text-center">图片</td>
+                <td>
+                    <a class="btn btn-default col-md-1" href="https://image.baidu.com/search/index?tn=baiduimage&amp;ipn=r&amp;ct=201326592&amp;cl=2&amp;lm=-1&amp;st=-1&amp;fm=index&amp;fr=&amp;hs=0&amp;xthttps=111111&amp;sf=1&amp;fmq=&amp;pv=&amp;ic=0&amp;nc=1&amp;z=&amp;se=1&amp;showtab=0&amp;fb=0&amp;width=&amp;height=&amp;face=0&amp;istype=2&amp;ie=utf-8&amp;word={{Search_input}}">	百度图片	</a>
+                    <a class="btn btn-default col-md-1" href="http://cn.bing.com/images/search?q={{Search_input}}&amp;FORM=BILH1">Bing图片</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="text-center">书籍</td>
+                <td>
+                    <a class="btn btn-default col-md-1" href="https://www.douban.com/search?cat=1001&amp;q={{Search_input}}">	豆瓣	</a>
+                    <a class="btn btn-default col-md-1" href="http://search.dangdang.com/?key={{Search_input}}&amp;ddsale=1">当当</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="text-center">翻译</td>
+                <td>
+                    <a class="btn btn-default col-md-1" href="http://translate.google.cn/#en/zh-CN/{{Search_input}}">	Google翻译	</a>
+                    <a class="btn btn-default col-md-1" href="http://fanyi.baidu.com/?aldtype=16047#en/zh/{{Search_input}}">	百度翻译	</a>
+                </td>
+            </tr>
+
+            <tr>
+                <td class="text-center"></td>
+                <td></td>
+            </tr>
+        </tbody>
+
+    </table>
+
+    <script>
+        var app = angular.module('myApp', []);
+        app.controller('myCtrl', function($scope) {});
+        $scope.Replaceurl = function() {};
+    </script>
+</body>
+
+</html>
