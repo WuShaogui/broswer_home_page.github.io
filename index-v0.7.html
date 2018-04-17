@@ -35,7 +35,9 @@
 
         <tbody>
             <tr ng-repeat="y in Class">
-                <td class="text-center">{{y.name}}</td>
+                <td class="text-center">
+                    <font class="sansserif" style="font-weight:bold;color:#CD3333 ">{{y.name}}</font>
+                </td>
                 <td ng-repeat="x in $eval(y.alias)" class="text-center" style="padding: 2px">
                     <a target="_blank" class="btn  btn-lg text-center" style="padding:0pt;height:80%;width:90%" href={{x.url}}{{Search_input}}{{x.addsearch}}>
                         <font class="sansserif" style="font-weight:bold">{{x.name}}</font>
