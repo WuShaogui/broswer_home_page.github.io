@@ -1,132 +1,169 @@
 {
     "dev": [{
         "name": "github",
-        "url": "https://github.com/search?utf8=%E2%9C%93&amp;type=Repositories&amp;ref=advsearch&amp;l=&amp;l=&amp;q="
+        "url": "https://github.com/search?utf8=%E2%9C%93&amp;type=Repositories&amp;ref=advsearch&amp;l=&amp;l=&amp;q=",
+        "addsearch": ""
     }, {
         "name": "stackoverflow",
-        "url": "http://stackoverflow.com/search?q="
+        "url": "http://stackoverflow.com/search?q=",
+        "addsearch": ""
     }, {
         "name": "开源中国",
-        "url": "https://www.oschina.net/search?scope=blog&amp;q="
+        "url": "https://www.oschina.net/search?scope=hblog&amp;q=",
+        "addsearch": ""
     }, {
         "name": "toutiao",
-        "url": "https://toutiao.io/search?q="
+        "url": "https://toutiao.io/search?q=",
+        "addsearch": ""
     }, {
         "name": "掘金",
-        "url": "https://juejin.im/search?query="
+        "url": "https://juejin.im/search?query=",
+        "addsearch": ""
     }, {
         "name": "importnew",
-        "url": "http://www.importnew.com/?s="
+        "url": "http://www.importnew.com/?s=",
+        "addsearch": ""
     }, {
         "name": "阿里云",
-        "url": "https://yq.aliyun.com/search?type=ARTICLE&amp;q="
+        "url": "https://yq.aliyun.com/search?type=ARTICLE&amp;q=",
+        "addsearch": ""
     }, {
         "name": "简书",
-        "url": "http://www.jianshu.com/search?q=&amp;page=1&amp;type=note"
+        "url": "http://www.jianshu.com/search?q=&amp;page=1&amp;type=note",
+        "addsearch": ""
     }, {
         "name": "微信",
-        "url": "http://weixin.sogou.com/weixin?type=2&amp;query=&amp;ie=utf8&amp;_sug_=n&amp;_sug_type_="
+        "url": "http://weixin.sogou.com/weixin?type=2&amp;query=&amp;ie=utf8&amp;_sug_=n&amp;_sug_type_=",
+        "addsearch": ""
     }, {
         "name": "segmentfault",
-        "url": "https://segmentfault.com/search?q="
+        "url": "https://segmentfault.com/search?q=",
+        "addsearch": ""
     }, {
         "name": "51cto",
-        "url": "http://blog.51cto.com/search.php?keyword=&amp;sch_area=S&amp;search_in=search.php&amp;step=2&amp;word=%C1%F7%B3%CC&amp;tn=bds&amp;cl=3&amp;ct=2097152&amp;si=blog.51cto.com&amp;q=%C1%F7%B3%CC&amp;domains=blog.51cto.com&amp;sitesearch=blog.51cto.com&amp;forid=1&amp;ie=gb2312&amp;oe=utf-8&amp;hl=cn&amp;x=27&amp;y=13"
+        "url": "http://so.51cto.com/?keywords=",
+        "addsearch": "&sort=time"
     }, {
         "name": "iteye",
-        "url": "http://www.iteye.com/search?type=blog&amp;query="
+        "url": "http://www.iteye.com/search?type=blog&amp;query=",
+        "addsearch": ""
     }],
 
     "search": [{
         "name": "谷歌",
-        "url": "https://www.google.com/search?q="
+        "url": "https://www.google.com/search?q=",
+        "addsearch": ""
     }, {
         "name": "百度",
-        "url": "https://www.baidu.com/baidu?wd="
+        "url": "https://www.baidu.com/baidu?wd=",
+        "addsearch": ""
     }, {
         "name": "必应",
-        "url": "https://www.bing.com/search?q="
+        "url": "https://www.bing.com/search?q=",
+        "addsearch": ""
     }, {
         "name": "搜狗",
-        "url": "https://www.sogou.com/web?query="
+        "url": "https://www.sogou.com/web?query=",
+        "addsearch": ""
     }],
 
     "shop": [{
         "name": "淘宝",
-        "url": "https://s.taobao.com/search?q="
+        "url": "https://s.taobao.com/search?q=",
+        "addsearch": ""
     }, {
         "name": "京东",
-        "url": "https://search.jd.com/Search?enc=utf-8&amp;pvid=97ericzi.w7d19z&amp;keyword="
+        "url": "https://search.jd.com/Search?enc=utf-8&amp;pvid=97ericzi.w7d19z&amp;keyword=",
+        "addsearch": ""
     }, {
         "name": "亚马逊",
-        "url": "https://www.amazon.cn/s/ref=nb_sb_noss?field-keywords="
+        "url": "https://www.amazon.cn/s/ref=nb_sb_noss?field-keywords=",
+        "addsearch": ""
     }],
 
     "movie": [{
         "name": "豆瓣",
-        "url": "https://www.douban.com/search?cat=1002&amp;q="
+        "url": "https://www.douban.com/search?cat=1002&amp;q=",
+        "addsearch": ""
     }],
 
     "store": [{
         "name": "搜百度盘",
-        "url": "http://www.sobaidupan.com/search.asp?wd="
+        "url": "http://www.sobaidupan.com/search.asp?wd=",
+        "addsearch": ""
     }, {
         "name": "盘搜搜",
-        "url": "http://www.pansoso.com/zh/"
+        "url": "http://www.pansoso.com/zh/",
+        "addsearch": ""
     }, {
         "name": "盘搜",
-        "url": "http://pansou.com/?q="
+        "url": "http://pansou.com/?q=",
+        "addsearch": ""
     }],
 
     "walk": [{
         "name": "百度地图",
-        "url": "http://map.baidu.com/m?word="
+        "url": "http://map.baidu.com/m?word=",
+        "addsearch": ""
     }, {
         "name": "携程",
-        "url": "http://you.ctrip.com/SearchSite/?query="
+        "url": "http://you.ctrip.com/SearchSite/?query=",
+        "addsearch": ""
     }],
 
     "know": [{
         "name": "维基百科",
-        "url": "https://zh.wikipedia.org/wiki/"
+        "url": "https://zh.wikipedia.org/wiki/",
+        "addsearch": ""
     }, {
         "name": "百度百科",
-        "url": "http://baike.baidu.com/search?word=&amp;pn=0&amp;rn=0&amp;enc=utf8"
+        "url": "http://baike.baidu.com/search?word=&amp;pn=0&amp;rn=0&amp;enc=utf8",
+        "addsearch": ""
     }, {
         "name": "知乎",
-        "url": "https://www.zhihu.com/search?type=content&amp;q="
+        "url": "https://www.zhihu.com/search?type=content&amp;q=",
+        "addsearch": ""
     }, {
         "name": "quora",
-        "url": "https://www.quora.com/search?q="
+        "url": "https://www.quora.com/search?q=",
+        "addsearch": ""
     }, {
         "name": "百度经验",
-        "url": "https://jingyan.baidu.com/search?word="
+        "url": "https://jingyan.baidu.com/search?word=",
+        "addsearch": ""
     }, {
         "name": "wikihow",
-        "url": "http://zh.wikihow.com/Special:GoogSearch?cx=008953293426798287586%3Awqu8qtfdf2g&amp;cof=FORID%3A10&amp;ie=UTF-8&amp;q="
+        "url": "http://zh.wikihow.com/Special:GoogSearch?cx=008953293426798287586%3Awqu8qtfdf2g&amp;cof=FORID%3A10&amp;ie=UTF-8&amp;q=",
+        "addsearch": ""
     }],
 
     "image": [{
         "name": "百度图片",
-        "url": "https://image.baidu.com/search/index?tn=baiduimage&amp;ipn=r&amp;ct=201326592&amp;cl=2&amp;lm=-1&amp;st=-1&amp;fm=index&amp;fr=&amp;hs=0&amp;xthttps=111111&amp;sf=1&amp;fmq=&amp;pv=&amp;ic=0&amp;nc=1&amp;z=&amp;se=1&amp;showtab=0&amp;fb=0&amp;width=&amp;height=&amp;face=0&amp;istype=2&amp;ie=utf-8&amp;word="
+        "url": "https://image.baidu.com/search/index?tn=baiduimage&amp;ipn=r&amp;ct=201326592&amp;cl=2&amp;lm=-1&amp;st=-1&amp;fm=index&amp;fr=&amp;hs=0&amp;xthttps=111111&amp;sf=1&amp;fmq=&amp;pv=&amp;ic=0&amp;nc=1&amp;z=&amp;se=1&amp;showtab=0&amp;fb=0&amp;width=&amp;height=&amp;face=0&amp;istype=2&amp;ie=utf-8&amp;word=",
+        "addsearch": ""
     }, {
         "name": "必应图片",
-        "url": "http://cn.bing.com/images/search?q=&amp;FORM=BILH1"
+        "url": "http://cn.bing.com/images/search?q=&amp;FORM=BILH1",
+        "addsearch": ""
     }],
 
     "books": [{
         "name": "豆瓣",
-        "url": "https://www.douban.com/search?cat=1001&amp;q="
+        "url": "https://www.douban.com/search?cat=1001&amp;q=",
+        "addsearch": ""
     }, {
         "name": "当当",
-        "url": "http://search.dangdang.com/?key=&amp;ddsale=1"
+        "url": "http://search.dangdang.com/?key=&amp;ddsale=1",
+        "addsearch": ""
     }],
 
     "traslate": [{
         "name": "谷歌翻译",
-        "url": "http://translate.google.cn/#en/zh-CN/"
+        "url": "http://translate.google.cn/#en/zh-CN/",
+        "addsearch": ""
     }, {
         "name": "百度翻译",
-        "url": "http://fanyi.baidu.com/?aldtype=16047#en/zh/"
+        "url": "http://fanyi.baidu.com/?aldtype=16047#en/zh/",
+        "addsearch": ""
     }]
 }
