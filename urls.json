@@ -1,4 +1,4 @@
-{
+[
     "dev": [{
         "name": "github",
         "url": "https://github.com/search?utf8=%E2%9C%93&amp;type=Repositories&amp;ref=advsearch&amp;l=&amp;l=&amp;q="
@@ -129,4 +129,4 @@
         "name": "百度翻译",
         "url": "http://fanyi.baidu.com/?aldtype=16047#en/zh/"
     }]
-}
+]
