@@ -20,6 +20,6 @@
 
 ## 4.页面预览
 
-![navigation page](pictrue/navigation page.png)
+![navigation page](pictrue/navigation_page.png)
 
 >注:由于本人专业所限,可能在简洁,美化方面做的不好
