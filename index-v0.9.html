@@ -88,9 +88,10 @@
             };
             $scope.myClick = function(){
                 var defurl="https://www.baidu.com/baidu?wd="+$scope.Search_input;
-
-                window.open(defurl,'_blank');
-                };
+                if((""+$scope.Search_input)!="undefined"){
+                    window.open(defurl,'_blank');
+                } 
+            };
             
             }); 
 
