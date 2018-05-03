@@ -259,6 +259,10 @@
         "url": "http://www.gxu.edu.cn",
         "addsearch": ""
     }, {
+        "name":"图书馆"，
+        "url":"http://www.lib.gxu.edu.cn/",
+        "addsearch": ""
+    },{
         "name": "西大财务处",
         "url": "http://cwc.gxu.edu.cn",
         "addsearch": ""
