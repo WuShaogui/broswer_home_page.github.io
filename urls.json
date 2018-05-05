@@ -191,10 +191,6 @@
             "name": "百度经验",
             "url": "https://jingyan.baidu.com/search?word=",
             "addsearch": ""
-        }, {
-            "name": "wikihow",
-            "url": "http://zh.wikihow.com/Special:GoogSearch?cx=008953293426798287586%3Awqu8qtfdf2g&amp;cof=FORID%3A10&amp;ie=UTF-8&amp;q=",
-            "addsearch": ""
         }
     ],
 
