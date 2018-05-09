@@ -56,9 +56,13 @@
         "name": "机器之心",
         "url": "https://www.jiqizhixin.com",
         "addsearch": ""
-    }, {
-        "name": "新智元",
-        "url": "https://www.zhihu.com/org/xin-zhi-yuan-88-3/posts",
+    },{
+         "name": "新智元",
+        "url": "https://www.zhihu.com/org/xin-zhi-yuan-88-3/activities",
+        "addsearch": ""   
+    },{
+        "name": "量子位",
+        "url": "https://www.zhihu.com/org/liang-zi-wei-48/activities",
         "addsearch": ""
     }, {
         "name": "数据观",
