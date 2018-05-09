@@ -82,10 +82,6 @@
         "name": "必应",
         "url": "https://www.bing.com/search?q=",
         "addsearch": ""
-    }, {
-        "name": "搜狗",
-        "url": "https://www.sogou.com/web?query=",
-        "addsearch": ""
     }],
 
     "shop": [{
@@ -186,14 +182,6 @@
         }, {
             "name": "百度百科",
             "url": "http://baike.baidu.com/search?word=&amp;pn=0&amp;rn=0&amp;enc=utf8",
-            "addsearch": ""
-        }, {
-            "name": "quora",
-            "url": "https://www.quora.com/search?q=",
-            "addsearch": ""
-        }, {
-            "name": "百度经验",
-            "url": "https://jingyan.baidu.com/search?word=",
             "addsearch": ""
         }
     ],
