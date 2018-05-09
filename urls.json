@@ -132,19 +132,6 @@
             "name": "七牛云",
             "url": "https://portal.qiniu.com/create",
             "addsearch": ""
-        },
-        {
-            "name": "搜百度盘",
-            "url": "http://www.sobaidupan.com/search.asp?wd=",
-            "addsearch": ""
-        }, {
-            "name": "盘搜搜",
-            "url": "http://www.pansoso.com/zh/",
-            "addsearch": ""
-        }, {
-            "name": "盘搜",
-            "url": "http://pansou.com/?q=",
-            "addsearch": ""
         }
     ],
     "eat": [{
