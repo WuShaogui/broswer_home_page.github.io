@@ -80,7 +80,7 @@
         "addsearch": ""
     },{
         "name": "搜狗",
-        "https://www.sogou.com/web?query=",
+        "url": "https://www.sogou.com/web?query=",
         "addsearch": ""
     }, {
         "name": "必应",
