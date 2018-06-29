@@ -3,7 +3,13 @@
         "name": "github",
         "url": "https://github.com/search?utf8=%E2%9C%93&amp;type=Repositories&amp;ref=advsearch&amp;l=&amp;l=&amp;q=",
         "addsearch": ""
-    }, {
+    },
+    {
+        "name": "gitlab",
+        "url": "https://gitlab.com/shaogui",
+        "addsearch": ""
+    },
+    {
         "name": "stackoverflow",
         "url": "http://stackoverflow.com/search?q=",
         "addsearch": ""
