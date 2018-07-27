@@ -138,7 +138,12 @@
             "name": "百度网盘",
             "url": "https://pan.baidu.com/disk/home?#/all?path=%2F&vmode=list",
             "addsearch": ""
-        }, {
+        },{
+            "name":"坚果云",
+            "url":"https://www.jianguoyun.com/#path=%2F::sl=0::tab=browse::id=c21851::magic=4a4f5ef1a6d85d38",
+            "addsearch":""
+        }
+        , {
             "name": "七牛云",
             "url": "https://portal.qiniu.com/create",
             "addsearch": ""
