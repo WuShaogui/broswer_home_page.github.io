@@ -3,27 +3,30 @@
         "name": "github",
         "url": "https://github.com/search?utf8=%E2%9C%93&amp;type=Repositories&amp;ref=advsearch&amp;l=&amp;l=&amp;q=",
         "addsearch": ""
-    },
-    {
+    },{
         "name": "gitlab",
         "url": "https://gitlab.com/shaogui",
         "addsearch": ""
-    },
-    {
-        "name": "stackoverflow",
-        "url": "http://stackoverflow.com/search?q=",
-        "addsearch": ""
-    }, {
+    },{
         "name": "开源中国",
         "url": "https://www.oschina.net/search?scope=hblog&amp;q=",
         "addsearch": ""
-    }, {
-        "name": "阿里云",
-        "url": "https://yq.aliyun.com/search?type=ARTICLE&amp;q=",
+    }],
+    "Competition":[{
+        "name": "Kaggle",
+        "url": "https://www.kaggle.com/",
         "addsearch": ""
-    }, {
-        "name": "segmentfault",
-        "url": "https://segmentfault.com/search?q=",
+    },{
+        "name": "阿里天池",
+        "url": "https://tianchi.aliyun.com/",
+        "addsearch": ""
+    },{
+        "name": "全球AI挑战赛",
+        "url": "https://challenger.ai/",
+        "addsearch": ""
+    },{
+        "name": "京东JData",
+        "url": "https://www.datafountain.cn/projects/jdata/",
         "addsearch": ""
     }],
     "learn": [{
@@ -38,10 +41,6 @@
         "name": "微信",
         "url": "http://weixin.sogou.com/weixin?type=2&amp;query=&amp;ie=utf8&amp;_sug_=n&amp;_sug_type_=",
         "addsearch": ""
-    }, {
-        "name": "简书",
-        "url": "http://www.jianshu.com/search?q=&amp;page=1&amp;type=note",
-        "addsearch": ""
     }],
 
     "DL": [{
@@ -51,6 +50,10 @@
     }, {
         "name": "Gluon官方文档",
         "url": "http://zh.gluon.ai",
+        "addsearch": ""
+    }, {
+        "name": "PyTorch中文文档",
+        "url": "http://pytorch-cn.readthedocs.io/zh/latest/",
         "addsearch": ""
     }, {
         "name": "Gluon论坛",
@@ -73,6 +76,14 @@
     }, {
         "name": "数据观",
         "url": "http://www.cbdio.com/node_2788.htm",
+        "addsearch": ""
+    }, {
+        "name": "Medium",
+        "url": "https://medium.com/tag/deep-learning",
+        "addsearch": ""
+    }, {
+        "name": "Twitter",
+        "url": "https://twitter.com/",
         "addsearch": ""
     }],
 
@@ -117,14 +128,6 @@
         "url": "https://movie.douban.com/subject_search?search_text=",
         "addsearch": ""
     }, {
-        "name": "猫眼电影",
-        "url": "https://maoyan.com/query?kw=",
-        "addsearch": ""
-    }, {
-        "name": "优酷",
-        "url": "http://www.youku.com/?spm=a2h0k.8191407.0.0",
-        "addsearch": ""
-    }, {
         "name": "腾讯",
         "url": "https://v.qq.com",
         "addsearch": ""
@@ -164,13 +167,7 @@
             "name": "高德地图",
             "url": "https://www.amap.com/search?query=",
             "addsearch": ""
-        },
-        {
-            "name": "携程",
-            "url": "http://you.ctrip.com/SearchSite/?query=",
-            "addsearch": ""
-        }
-    ],
+        }],
 
     "know": [{
             "name": "知乎",
@@ -205,10 +202,6 @@
     }, {
         "name": "我是菜鸟",
         "url": "https://imcn.me",
-        "addsearch": ""
-    }, {
-        "name": "OMG!Ubuntu",
-        "url": "https://www.omgubuntu.co.uk",
         "addsearch": ""
     }, {
         "name": "少数派",
