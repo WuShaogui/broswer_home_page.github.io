@@ -1,0 +1,65 @@
+{
+    "Class": [{
+            "name": "搜索引擎",
+            "alias": "search"
+        },
+        {
+            "name": "学习",
+            "alias": "learn"
+        },
+        {
+            "name": "深度学习工具",
+            "alias": "DL"
+        },
+        {
+            "name": "深度学习资讯",
+            "alias": "DLnews"
+        },
+        {
+            "name":"机器学习比赛",
+            "alias":"Competition"
+        },
+        {
+            "name": "开发",
+            "alias": "dev"
+        },
+        {
+            "name": "百科",
+            "alias": "know"
+        }, {
+            "name": "其他资讯",
+            "alias": "news"
+        }, {
+            "name": "网盘",
+            "alias": "store"
+        },
+        {
+            "name": "购物",
+            "alias": "shop"
+        }, {
+            "name": "电影",
+            "alias": "movie"
+        }, {
+            "name": "美食",
+            "alias": "eat"
+        }, {
+            "name": "出行",
+            "alias": "walk"
+        }, {
+            "name": "图片",
+            "alias": "image"
+        }, {
+            "name": "书籍",
+            "alias": "books"
+        }, {
+            "name": "翻译",
+            "alias": "traslate"
+        }, {
+            "name": "邮箱",
+            "alias": "email"
+        }, {
+            "name": "西大",
+            "alias": "xida"
+        }
+    ]
+}
