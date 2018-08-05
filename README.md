@@ -23,3 +23,6 @@
 ![navigation page](pictrue/navigation_page.png)
 
 注:由于本人专业所限,可能在简洁,美化方面做的不好
+
+## 5.参考
+背景特效使用了：https://github.com/VincentGarreau/particles.js
