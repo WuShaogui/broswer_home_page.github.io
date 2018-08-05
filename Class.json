@@ -16,6 +16,10 @@
             "alias": "DLnews"
         },
         {
+            "name":"机器学习比赛",
+            "alias":"Competition"
+        },
+        {
             "name": "开发",
             "alias": "dev"
         },
