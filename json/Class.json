@@ -12,6 +12,10 @@
             "alias": "DL"
         },
         {
+            "name":"微信公众号",
+            "alias":"weixinDLnews"
+        },
+        {
             "name": "深度学习资讯",
             "alias": "DLnews"
         },
@@ -26,10 +30,12 @@
         {
             "name": "百科",
             "alias": "know"
-        }, {
-            "name": "其他资讯",
-            "alias": "news"
-        }, {
+        }, 
+        // {
+        //     "name": "其他资讯",
+        //     "alias": "news"
+        // }, 
+        {
             "name": "网盘",
             "alias": "store"
         },
