@@ -87,7 +87,11 @@
         "addsearch": ""
     }],
 
-    "weixinDLnews": [
+    "weixinDLnews": [{
+        "name": "PaperWeekly  ",
+        "url": "https://mp.weixin.qq.com/profile?src=3&timestamp=1534840877&ver=1&signature=hqeCLK4edWorsU2M2f5NFBSk3sQYxrXY5NtsiXn*ylrfe-v3DVoKMHlpvWW1Y-0UIKUFeDUxlaNftPOynRG01g==",
+        "addsearch": ""
+    },
     {
         "name": "大数据文摘 ",
         "url": "https://mp.weixin.qq.com/profile?src=3&timestamp=1534840158&ver=1&signature=lNY-ZbjfPHr40G-zyUe*Sdc9HIn2IisEo0vwpKEAV*afZ8AVH7L2pyBXAAdDfcfuRJJ-7i9DNgIdmb0xgO2WXA==",
