@@ -87,33 +87,6 @@
         "addsearch": ""
     }],
 
-    "weixinDLnews": [{
-        "name": "PaperWeekly  ",
-        "url": "https://mp.weixin.qq.com/profile?src=3&timestamp=1534840877&ver=1&signature=hqeCLK4edWorsU2M2f5NFBSk3sQYxrXY5NtsiXn*ylrfe-v3DVoKMHlpvWW1Y-0UIKUFeDUxlaNftPOynRG01g==",
-        "addsearch": ""
-    },
-    {
-        "name": "大数据文摘 ",
-        "url": "https://mp.weixin.qq.com/profile?src=3&timestamp=1534840158&ver=1&signature=lNY-ZbjfPHr40G-zyUe*Sdc9HIn2IisEo0vwpKEAV*afZ8AVH7L2pyBXAAdDfcfuRJJ-7i9DNgIdmb0xgO2WXA==",
-        "addsearch": ""
-    },{
-        "name": "AI科技评论",
-        "url": "https://mp.weixin.qq.com/profile?src=3&timestamp=1534822048&ver=1&signature=Y6rOsgS-EJJmHu4PdEA4AaqfzPjlEcMCAQ3RW8yixZXwPren5LW8rjdl93BZ1yZQxCkrvoi-2ZPkL0Nu4urMPg==",
-        "addsearch": ""
-    },{
-        "name": "机器学习研究会订阅号",
-        "url": "https://mp.weixin.qq.com/profile?src=3&timestamp=1534821911&ver=1&signature=AUywLZAsONMlWJYqtKL2zYzlWkoF0RoiADVVTqiAOv1ebHyooMCJSbNHjGrMsInRebzfZczUlrDD-eTN8FLAZw==",
-        "addsearch": ""
-    },{
-        "name": "将门创投",
-        "url": "https://mp.weixin.qq.com/profile?src=3&timestamp=1534821880&ver=1&signature=4i6JF3rTl7pyXdsQuX1H4p-zRMfIeiiQygMdQMJbSb7EJD*yu5759rm00SB-Ac5xXVn3hGrJktFLJuAryZKx5A==",
-        "addsearch": ""
-    }, {
-        "name": "AI前线",
-        "url": "https://mp.weixin.qq.com/profile?src=3&timestamp=1534840095&ver=1&signature=C9B7Zv-mwH8d5jvVkoYN4x06Gm59fYIYh-p79DZ0cU4xjrhqZs9it9FssUhA0Ctinec9jwFYRG-n09w8n87Mew==",
-        "addsearch": ""
-    }],
-
     "search": [{
         "name": "谷歌",
         "url": "https://www.google.com/search?q=",
