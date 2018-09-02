@@ -88,34 +88,34 @@
     }],
 
     "weixinDLnews": [{
-        "name": "PaperWeekly  ",
-        "url": "http://weixin.sogou.com/weixin?type=1&query=",
-        "addsearch": "&ie=utf8&s_from=input&_sug_=y&_sug_type_="
+        "name": "PaperWeekly",
+        "url": "http://weixin.sogou.com/weixin?type=1&query=PaperWeekly&ie=utf8&s_from=input&_sug_=y&_sug_type_=",
+        "addsearch": ""
     },
     {
-        "name": "大数据文摘 ",
-        "url": "http://weixin.sogou.com/weixin?type=1&query=",
-        "addsearch": "&ie=utf8&s_from=input&_sug_=y&_sug_type_="
+        "name": "大数据文摘",
+        "url": "http://weixin.sogou.com/weixin?type=1&query=大数据文摘&ie=utf8&s_from=input&_sug_=y&_sug_type_=",
+        "addsearch": ""
     },{
         "name": "AI科技评论",
-        "url": "http://weixin.sogou.com/weixin?type=1&query=",
-        "addsearch": "&ie=utf8&s_from=input&_sug_=y&_sug_type_="
+        "url": "http://weixin.sogou.com/weixin?type=1&query=AI科技评论&ie=utf8&s_from=input&_sug_=y&_sug_type_=",
+        "addsearch": ""
     },{
         "name": "机器学习研究会订阅号",
-        "url": "http://weixin.sogou.com/weixin?type=1&query=",
-        "addsearch": "&ie=utf8&s_from=input&_sug_=y&_sug_type_="
+        "url": "http://weixin.sogou.com/weixin?type=1&query=机器学习研究会订阅号&ie=utf8&s_from=input&_sug_=y&_sug_type_=",
+        "addsearch": ""
     },{
-         "name": "哈工大SCIR ",
-        "url": "http://weixin.sogou.com/weixin?type=1&query=",
-        "addsearch": "&ie=utf8&s_from=input&_sug_=y&_sug_type_="  
+         "name": "哈工大SCIR",
+        "url": "http://weixin.sogou.com/weixin?type=1&query=哈工大SCIR&ie=utf8&s_from=input&_sug_=y&_sug_type_=",
+        "addsearch": ""
     }, {
         "name": "将门创投",
-        "url": "http://weixin.sogou.com/weixin?type=1&query=",
-        "addsearch": "&ie=utf8&s_from=input&_sug_=y&_sug_type_="
+        "url": "http://weixin.sogou.com/weixin?type=1&query=将门创投&ie=utf8&s_from=input&_sug_=y&_sug_type_=",
+        "addsearch": ""
     }, {
         "name": "AI前线",
-        "url": "http://weixin.sogou.com/weixin?type=1&query=",
-        "addsearch": "&ie=utf8&s_from=input&_sug_=y&_sug_type_="
+        "url": "http://weixin.sogou.com/weixin?type=1&query=AI前线&ie=utf8&s_from=input&_sug_=y&_sug_type_=",
+        "addsearch": ""
     }],
 
     "search": [{
