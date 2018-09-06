@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <title>小五的个人主页</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://wushaogui.github.io/broswer_home_page.github.io/css/bootstrap.min.css" rel="stylesheet">
+    <script type="text/javascript" src="https://wushaogui.github.io/broswer_home_page.github.io/js/angular.min.js"></script>
+    <script type="text/javascript" src="https://wushaogui.github.io/broswer_home_page.github.io/js/angular-cookies.min.js"></script>
+
+    <style>
+        .table tbody tr td {
+            vertical-align: middle;
+        }
+        
+        table {
+            background-color: #ffffff;
+            filter: alpha(opacity=60);
+            opacity: 0.8;
+        }
+        
+        font.sansserif {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        body {
+            background-image: url('https://wushaogui.github.io/broswer_home_page.github.io/Desktop.jpeg');
+            background-repeat: no-repeat;
+            background-position: 0% 0%;
+            background-size: cover;
+            background-color: beige;
+        }
+
+    </style>
+</head>
+
+<body ng-app="myApp"  ng-controller="myCtrl">
+
+    <!-- 输入框 -->
+    <div class="input-group col-md-8 col-md-offset-4" style="margin-top:5%;height: 50px !important;width: 500px !important; max-width: 100vw !important;">
+        <input type="text" ng-model="Search_input" placeholder="输入搜索内容" ng-keyup="myKeyup($event)"  class="form-control" style="height: 50px !important">
+        <span class="input-group-addon btn" ng-model="Search_botton"><a target="_blank" href="https://www.baidu.com/baidu?wd={{Search_input}}"> 搜索</a></span>
+    </div>
+
+    <table class="table table-hover table-bordered">
+        <caption>常用网址</caption>
+
+        <tbody>
+            <!-- 每一行的信息 -->
+            <tr ng-repeat="y in Class">
+                <!-- 小图标 -->
+                <td class="text-center">
+                    <img src="https://wushaogui.github.io/broswer_home_page.github.io/pictrue/{{y.type}}.png" height="13" width="13" />
+                </td>
+
+                <!-- 大的分类 -->
+                <td class="text-center">
+                    <font class="sansserif" style="font-weight:bold;color:#CD3333 ">{{y.name}}</font>
+                </td>
+
+                <!-- 需要输入信息的链接 -->
+                <td ng-repeat="x in $eval(y.alias)" ng-if="y.type=='input'" class="text-center" style="padding: 2px">
+                    <a target="_blank" class="btn  btn-lg text-center" style="padding:0pt;height:80%;width:90%" href={{x.url}}{{Search_input}}{{x.addsearch}}>
+                        <font class="sansserif" style="font-weight:bold">{{x.name}}</font>
+                    </a>
+                </td>
+
+                <!-- 直接点击的链接 -->
+                <td ng-repeat="x in $eval(y.alias)" ng-if="y.type=='click'" class="text-center" style="padding: 2px">
+                    <a target="_blank" class="btn  btn-lg text-center" style="padding:0pt;height:80%;width:90%" href={{x.url}}>
+                        <font class="sansserif" style="font-weight:bold">{{x.name}}</font>
+                    </a>
+                </td>
+
+            </tr>
+        </tbody>
+
+    </table>
+
+    <!-- 其他快捷链接 -->
+    <div  style="left:5px;top:10px;">
+        <a href="https://github.com/WuShaogui/broswer_home_page.github.io/blob/master/json/Class.json">大分类</a>
+        <a href="https://github.com/WuShaogui/broswer_home_page.github.io/blob/master/json/urls.json">小分类</a>
+        <a href="https://github.com/WuShaogui/broswer_home_page.github.io/blob/master/desktop.jpg">桌面壁纸</a>
+    </div>
+
+    <script>
+        var app = angular.module("myApp",['ngCookies']);
+        app.controller("myCtrl", function($cookieStore,$http, $scope) {
+
+            // 大分类数据
+            $scope.Class = new Array();
+            $http.get("https://wushaogui.github.io/broswer_home_page.github.io/json/Class.json").success(function(data) {
+                $scope.Class = data.Class;
+            });
+
+            // 小分类数据
+            $http.get("https://wushaogui.github.io/broswer_home_page.github.io/json/urls.json").success(function(data1) {
+                for (var i = 0; i < $scope.Class.length; i++) {
+                    var claname = $scope.Class[i].alias;
+                    $scope[claname] = data1[claname];
+                }
+            });
+
+            // 监控键盘的回车事件
+            $scope.myKeyup = function(e){
+                var keycode = window.event?e.keyCode:e.which;
+                if(keycode==13){
+                    $scope.myClick();
+                }
+            };
+            
+            // 事件响应
+            $scope.myClick = function(){
+                var defurl="https://www.baidu.com/baidu?wd="+$scope.Search_input;
+                if((""+$scope.Search_input)!="undefined"){
+                    window.open(defurl,'_blank');
+                };
+
+                var exdate=new Date();
+                exdate.setDate(exdate.getDate()+365);
+                $cookieStore.put("SearchContent",$scope.Search_input);
+            };         
+            });
+    </script>
+</body>
+
+</html>
