@@ -1,0 +1,85 @@
+{
+    "Class": [{
+            "name": "搜索引擎",
+            "alias": "search",
+            "type":"input"
+        },
+        {
+            "name": "学习",
+            "alias": "learn",
+            "type":"click"
+        },
+        {
+            "name": "深度学习工具",
+            "alias": "DL",
+            "type":"click"
+        },
+        {
+            "name":"微信公众号",
+            "alias":"weixinDLnews",
+            "type":"click"
+        },
+        {
+            "name": "深度学习资讯",
+            "alias": "DLnews",
+            "type":"click"
+        },
+        {
+            "name":"机器学习比赛",
+            "alias":"Competition",
+            "type":"click"
+        },
+        {
+            "name": "开发",
+            "alias": "dev",
+            "type":"input"
+        },
+        {
+            "name": "百科",
+            "alias": "know",
+            "type":"input"
+        }, 
+        {
+            "name": "网盘",
+            "alias": "store",
+            "type":"click"
+        },
+        {
+            "name": "购物",
+            "alias": "shop",
+            "type":"input"
+        }, {
+            "name": "电影",
+            "alias": "movie",
+            "type":"input"
+        }, {
+            "name": "读书",
+            "alias": "book",
+            "type":"click"
+        }, {
+            "name": "出行",
+            "alias": "walk",
+            "type":"input"
+        }, {
+            "name": "图片",
+            "alias": "image",
+            "type":"input"
+        }, {
+            "name": "书籍",
+            "alias": "books",
+            "type":"input"
+        }, {
+            "name": "翻译",
+            "alias": "traslate",
+            "type":"input"
+        }, {
+            "name": "邮箱",
+            "alias": "email",
+            "type":"click"
+        }, {
+            "name": "西大",
+            "alias": "xida",
+            "type":"click"
+        }
+    ]
+}
