@@ -1,0 +1,31 @@
+{
+"books": [{
+        "name": "书语者电子图书馆",
+        "url": "https://book.shuyuzhe.com/search/",
+        "addsearch": ""
+    },{
+        "name": "周读",
+        "url": "http://www.ireadweek.com/index.php/Index/bookList.html?keyword=",
+        "addsearch": ""
+    },{
+        "name": "走读派",
+        "url": "http://zoudupai.com/book/share?kw=",
+        "addsearch": ""
+    },{
+        "name": "skEbooks",
+        "url": "https://www.skebooks.com/q?type=1&keyword=",
+        "addsearch": ""
+    },{
+        "name": "我的小书屋",
+        "url": "http://mebook.cc/?s=",
+        "addsearch": ""
+    },{
+        "name": "云海电子图书馆",
+        "url": "http://www.pdfbook.cn/?s=",
+        "addsearch": ""
+    },{
+        "name": "奇异书屋",
+        "url": "https://www.talebook.org/search?name=",
+        "addsearch": ""
+    }]
+}
