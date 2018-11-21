@@ -257,6 +257,10 @@
         "name": "QQ邮箱",
         "url": "https://mail.qq.com",
         "addsearch": ""
+    }, {
+        "name": "西大学生邮箱",
+        "url": "http://mail.st.gxu.edu.cn/",
+        "addsearch": ""
     }],
     "xida": [{
         "name": "广西大学",
