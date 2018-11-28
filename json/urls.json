@@ -185,6 +185,10 @@
             "name": "七牛云",
             "url": "https://portal.qiniu.com/create",
             "addsearch": ""
+        }, {
+            "name": "阿里云存储",
+            "url": "https://oss.console.aliyun.com/bucket/oss-cn-shenzhen/shgwumarkdown/overview",
+            "addsearch": ""
         }
     ],
     "book": [{
