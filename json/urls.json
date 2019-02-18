@@ -32,6 +32,10 @@
         "name": "牛客网",
         "url": "https://www.nowcoder.com/",
         "addsearch": ""
+    },{
+        "name": "超级简历",
+        "url": "https://www.wondercv.com/",
+        "addsearch": ""
     }],
     "Competition":[{
         "name": "Kaggle",
