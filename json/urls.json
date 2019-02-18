@@ -12,6 +12,27 @@
         "url": "https://www.oschina.net/search?scope=hblog&amp;q=",
         "addsearch": ""
     }],
+    "Work": [{
+        "name": "Boss直聘",
+        "url": "https://www.zhipin.com/",
+        "addsearch": ""
+    },{
+        "name": "拉钩网",
+        "url": "https://www.lagou.com/",
+        "addsearch": ""
+    },{
+        "name": "智联招聘",
+        "url": "https://www.zhaopin.com/",
+        "addsearch": ""
+    },{
+        "name": "猎聘",
+        "url": "https://www.liepin.com/zphulianwangxuqiu/",
+        "addsearch": ""
+    },{
+        "name": "牛客网",
+        "url": "https://www.nowcoder.com/",
+        "addsearch": ""
+    }],
     "Competition":[{
         "name": "Kaggle",
         "url": "https://www.kaggle.com/",
@@ -185,10 +206,6 @@
             "name": "七牛云",
             "url": "https://portal.qiniu.com/create",
             "addsearch": ""
-        }, {
-            "name": "阿里云存储",
-            "url": "https://oss.console.aliyun.com/bucket/oss-cn-shenzhen/shgwumarkdown/overview",
-            "addsearch": ""
         }
     ],
     "book": [{
@@ -260,10 +277,6 @@
     }, {
         "name": "QQ邮箱",
         "url": "https://mail.qq.com",
-        "addsearch": ""
-    }, {
-        "name": "西大学生邮箱",
-        "url": "http://mail.st.gxu.edu.cn/",
         "addsearch": ""
     }],
     "xida": [{
