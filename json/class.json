@@ -56,11 +56,6 @@
             "alias": "movie",
             "type":"input"
         }, 
-        // {
-        //     "name": "读书",
-        //     "alias": "book",
-        //     "type":"click"
-        // }, 
         {
             "name": "出行",
             "alias": "walk",
