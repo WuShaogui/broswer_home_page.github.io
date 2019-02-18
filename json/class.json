@@ -8,8 +8,11 @@
             "name": "学习",
             "alias": "learn",
             "type":"click"
-        },
-        {
+        }, {
+            "name": "求职",
+            "alias": "Work",
+            "type":"click"
+        },{
             "name": "深度学习工具",
             "alias": "DL",
             "type":"click"
@@ -52,11 +55,13 @@
             "name": "电影",
             "alias": "movie",
             "type":"input"
-        }, {
-            "name": "读书",
-            "alias": "book",
-            "type":"click"
-        }, {
+        }, 
+        // {
+        //     "name": "读书",
+        //     "alias": "book",
+        //     "type":"click"
+        // }, 
+        {
             "name": "出行",
             "alias": "walk",
             "type":"input"
