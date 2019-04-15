@@ -1,5 +1,9 @@
 {
 "books": [{
+        "name": "云海电子图书馆",
+        "url": "http://www.pdfbook.cn/?s=",
+        "addsearch": ""
+    },{
         "name": "书语者电子图书馆",
         "url": "https://book.shuyuzhe.com/search/",
         "addsearch": ""
@@ -8,8 +12,12 @@
         "url": "http://www.ireadweek.com/index.php/Index/bookList.html?keyword=",
         "addsearch": ""
     },{
-        "name": "走读派",
-        "url": "http://zoudupai.com/book/share?kw=",
+        "name": "奇异书屋",
+        "url": "https://www.talebook.org/search?name=",
+        "addsearch": ""
+    },{
+        "name": "丸子书屋",
+        "url": "http://www.wzbook.xyz/?s=",
         "addsearch": ""
     },{
         "name": "skEbooks",
@@ -20,12 +28,8 @@
         "url": "http://mebook.cc/?s=",
         "addsearch": ""
     },{
-        "name": "云海电子图书馆",
-        "url": "http://www.pdfbook.cn/?s=",
-        "addsearch": ""
-    },{
-        "name": "奇异书屋",
-        "url": "https://www.talebook.org/search?name=",
+        "name": "豆瓣读书",
+        "url": "https://book.douban.com/subject_search?search_text=",
         "addsearch": ""
     }]
 }
