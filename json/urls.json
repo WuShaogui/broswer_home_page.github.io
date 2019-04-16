@@ -32,10 +32,6 @@
         "name": "牛客网",
         "url": "https://www.nowcoder.com/",
         "addsearch": ""
-    },{
-        "name": "超级简历",
-        "url": "https://www.wondercv.com/",
-        "addsearch": ""
     }],
     "Competition":[{
         "name": "Kaggle",
@@ -188,8 +184,8 @@
         "url": "https://v.qq.com",
         "addsearch": ""
     }, {
-        "name": "哔哩哔哩",
-        "url": "https://www.bilibili.com",
+        "name": "虎牙直播",
+        "url": "https://www.huya.com/l",
         "addsearch": ""
     },{
         "name": "网易云音乐",
@@ -275,12 +271,16 @@
         "addsearch": ""
     }],
     "email": [{
+        "name": "QQ邮箱",
+        "url": "https://mail.qq.com",
+        "addsearch": ""
+    },{
         "name": "163邮箱",
         "url": "https://mail.163.com",
         "addsearch": ""
-    }, {
-        "name": "QQ邮箱",
-        "url": "https://mail.qq.com",
+    },{
+        "name": "西大邮箱",
+        "url": "http://mail.st.gxu.edu.cn/",
         "addsearch": ""
     }],
     "xida": [{
