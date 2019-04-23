@@ -67,14 +67,14 @@
 
                 <!-- 需要输入信息的链接 -->
                 <td ng-repeat="x in $eval(y.alias)" ng-if="y.type=='input'" class="text-center" style="padding: 0.5px">
-                    <a target="_blank" class="btn btn-light btn-sm text-center" style="padding:0pt;height:80%;width:90%;" href={{x.url}}{{Search_input}}{{x.addsearch}}>
+                    <a target="_blank" class="btn  text-center" style="padding:0pt;height:80%;width:90%;" href={{x.url}}{{Search_input}}{{x.addsearch}}>
                         <font class="sansserif" style="font-weight:bold">{{x.name}}</font>
                     </a>
                 </td>
 
                 <!-- 直接点击的链接 -->
                 <td ng-repeat="x in $eval(y.alias)" ng-if="y.type=='click'" class="text-center" style="padding: 0.5px">
-                    <a target="_blank" class="btn btn-light btn-sm text-center" style="padding:0pt;height:80%;width:90%;" href={{x.url}}>
+                    <a target="_blank" class="btn  text-center" style="padding:0pt;height:80%;width:90%;" href={{x.url}}>
                         <font class="sansserif" style="font-weight:bold">{{x.name}}</font>
                     </a>
                 </td>
