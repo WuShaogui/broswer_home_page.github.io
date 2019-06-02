@@ -28,6 +28,10 @@
         "url": "http://mebook.cc/?s=",
         "addsearch": ""
     },{
+        "name": "SoBooks",
+        "url": "https://sobooks.cc/search/",
+        "addsearch": ""
+    },{
         "name": "豆瓣读书",
         "url": "https://book.douban.com/subject_search?search_text=",
         "addsearch": ""
