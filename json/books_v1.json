@@ -8,8 +8,12 @@
         "url": "https://book.shuyuzhe.com/search/",
         "addsearch": ""
     },{
-        "name": "好多书",
-        "url": "http://booksk.com/?s=",
+        "name": "周读",
+        "url": "http://www.ireadweek.com/index.php/Index/bookList.html?keyword=",
+        "addsearch": ""
+    },{
+        "name": "奇异书屋",
+        "url": "https://www.talebook.org/search?name=",
         "addsearch": ""
     },{
         "name": "丸子书屋",
