@@ -4,8 +4,8 @@
         "url": "http://www.pdfbook.cn/?s=",
         "addsearch": ""
     },{
-        "name": "书语者电子图书馆",
-        "url": "https://book.shuyuzhe.com/search/",
+        "name": "书单网",
+        "url": "https://www.shudan.vip/?s=",
         "addsearch": ""
     },{
         "name": "好多书",
@@ -20,12 +20,28 @@
         "url": "https://www.skebooks.com/q?type=1&keyword=",
         "addsearch": ""
     },{
-        "name": "我的小书屋",
-        "url": "http://mebook.cc/?s=",
+        "name": "精品电子书",
+        "url": "https://pan.shudan.vip/?s=",
         "addsearch": ""
     },{
         "name": "SoBooks",
         "url": "https://sobooks.cc/search/",
+        "addsearch": ""
+    },{
+        "name": "千百度",
+        "url": "https://hotbaidu.com/?s=",
+        "addsearch": ""
+    },{
+        "name": "蚂蚁搜书",
+        "url": "http://book.mybanshu.win/book/list?kw=",
+        "addsearch": ""
+    },{
+        "name": "周读",
+        "url": "http://www.ireadweek.com/index.php?g=portal&m=search&a=index&keyword=",
+        "addsearch": ""
+    },{
+        "name": "图灵社区",
+        "url": "https://www.ituring.com.cn/search?q=",
         "addsearch": ""
     },{
         "name": "豆瓣读书",
