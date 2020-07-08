@@ -1,0 +1,27 @@
+{
+"works": [{
+        "name": "Boss直聘",
+        "url": "https://www.zhipin.com/",
+        "addsearch": ""
+    },{
+        "name": "拉钩网",
+        "url": "https://www.lagou.com/",
+        "addsearch": ""
+    },{
+        "name": "智联招聘",
+        "url": "https://www.zhaopin.com/",
+        "addsearch": ""
+    },{
+        "name": "猎聘",
+        "url": "https://www.liepin.com/zphulianwangxuqiu/",
+        "addsearch": ""
+    },{
+        "name": "牛客网",
+        "url": "https://www.nowcoder.com/",
+        "addsearch": ""
+    },{
+        "name": "前程无忧",
+        "url": "https://www.51job.com/",
+        "addsearch": ""
+    }]
+}
